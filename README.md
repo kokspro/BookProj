@@ -1,18 +1,5 @@
-# BookProj
-Sun Devil Book Exchange
+# Sun Devil Book Exchange
 Welcome to the Sun Devil Book Exchange project! This is a JavaFX application that allows users to manage and exchange books in a community-oriented platform. This README provides all the information you need to set up and run the project.
-
-Table of Contents
-Prerequisites
-Getting Started
-Setting Up JavaFX
-Building the Project
-Running the Application
-Project Structure
-Contributing
-License
-Prerequisites
-
 
 Before you begin, ensure you have the following installed:
 
@@ -54,6 +41,9 @@ mvn javafx:run
 This command starts the JavaFX application using the configuration specified in the pom.xml.
 
 Project Structure
+
+*MUST VIEW IN CODE MODE*
+
 Here’s a brief overview of the project structure:
 
 SunDevilBookExchange/
@@ -75,5 +65,3 @@ If you'd like to contribute to this project, please fork the repository and subm
 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-
