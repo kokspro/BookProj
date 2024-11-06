@@ -15,19 +15,18 @@ cd SunDevilBookExchange
 Set Up Environment Variables:
 Create an environment variable JAVA_FX_SDK that points to the JavaFX SDK installation directory.
 For example, on Windows:
-set JAVA_FX_SDK="C:\Program Files\Java\javafx-sdk-17.0.13"
+set JAVA_FX_SDK="C:\Program Files\Java\javafx-sdk-17.x.x"
 
 Setting Up JavaFX
 JavaFX is not included in the JDK from version 11 onwards. You need to download the JavaFX SDK separately.
 Download JavaFX SDK:
 Go to GluonHQ and download the JavaFX SDK version that matches your JDK.
 Unzip the downloaded file to a directory of your choice.
-
 Set the Environment Variable:
 Ensure the JAVA_FX_SDK environment variable points to the lib folder of the unzipped JavaFX SDK.
+
 Building the Project
 Once you have the prerequisites and environment variables set up, you can build the project using Maven.
-
 Open your terminal or command prompt.
 Navigate to the project directory.
 Run the following command:
@@ -38,6 +37,7 @@ Running the Application
 To run the application, use the following command in the terminal:
 
 mvn javafx:run
+
 This command starts the JavaFX application using the configuration specified in the pom.xml.
 
 Project Structure
